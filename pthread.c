@@ -6,7 +6,7 @@
 #include <sys/time.h>
 
 #define RANDLIMIT 5 
-#define N 4000     
+#define N 5000     
 #define NUMLIMIT 70.0
 #define THREADS 8
 
@@ -69,7 +69,7 @@ int main(int argc, char *argv[]) {
   gettimeofday(&stop, 0);
 
   /*Print the timing*/
-  fprintf(stdout, "Time Taken = %.6f seconds.\n\nn",
+  fprintf(stdout, "Time Taken = %.6f seconds.\n\n",
           (stop.tv_sec + stop.tv_usec * 1e-6) -
               (start.tv_sec + start.tv_usec * 1e-6));
 
