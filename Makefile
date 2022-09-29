@@ -1,5 +1,5 @@
 all:
 	gcc  seq.c -o seq
-	seq
+	./seq
 clean: 
 	$(RM) seq
