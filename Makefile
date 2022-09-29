@@ -1,4 +1,4 @@
 all:
-      gcc  seq.c -o seq
+	gcc  seq.c -o seq
 clean: 
-      $(RM) seq
+	$(RM) seq
