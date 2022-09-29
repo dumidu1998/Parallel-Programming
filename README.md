@@ -2,6 +2,10 @@
 
 ### Comparision between sequential, Pthread and OpenMP parallel programming 
 
+`
+git update-index --chmod=+x your_script.sh
+`
+
 Run on Linux Terminal
 #### Sequential 
 `
