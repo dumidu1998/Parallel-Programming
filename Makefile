@@ -1,3 +1,3 @@
-all: gcc  seq.c -o seq
+all:gcc  seq.c -o seq
 
 clean: $(RM) seq
