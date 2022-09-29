@@ -6,7 +6,7 @@
 #include <sys/time.h>
 
 #define RANDLIMIT 5 
-#define N 3000     
+#define N 4000     
 #define NUMLIMIT 70.0
 #define THREADS 8
 
