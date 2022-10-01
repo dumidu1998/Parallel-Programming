@@ -4,7 +4,7 @@
 #include <sys/time.h>
 
 #define RANDLIMIT 5
-#define N 2000
+#define N 6000
 #define NUMLIMIT 70.0
 
 float a[N][N];
